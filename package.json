@@ -1,0 +1,26 @@
+{
+  "name": "academic-alerts",
+  "version": "1.0.0",
+  "description": "Software dedicated to the management of academic alerts",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@team-academic_alerts",
+  "license": "ISC",
+  "dependencies": {
+    "@angular-devkit/schematics": "^9.0.1",
+    "bcrypt": "^3.0.8",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.11",
+    "mongoose-unique-validator": "^2.0.3",
+    "morgan": "^1.9.1",
+    "underscore": "^1.9.2",
+    "nodemailer": "^2.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
