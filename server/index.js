@@ -19,6 +19,7 @@ app.use(cors({ origin: 'http://localhost:4200' }));
 
 
 app.use('/alerts', require('./routes/main.routes'));
+app.use('/carreras', require('./routes/carrera.routes'));
 
 app.listen(3000, () => {
     console.log("Server On Port ", app.get('port'))

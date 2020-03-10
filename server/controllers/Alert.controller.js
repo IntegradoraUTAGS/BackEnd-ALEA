@@ -1,4 +1,9 @@
 const alert = require('../models/Alert');
+const express = require('express');
+const morgan = require('morgan');
+const app = express();
+const cors = require('cors');
+
 
 const alertController = {};
 
