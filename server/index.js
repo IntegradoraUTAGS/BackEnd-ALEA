@@ -35,7 +35,7 @@ app.set('port', process.env.PORT || 3000);
 //Middleswares
 app.use(morgan('dev'));
 app.use(express.json())
-app.use(cors({ origin: 'http://localhost:4200' }));
+app.use(cors({ origin: 'http://172.17.1.7:4200' }));
 app.use(multerConfig);
 
 //Routes

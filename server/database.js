@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const URI = 'mongodb://localhost/test_complete';
+const URI = 'mongodb://172.17.1.7/test_complete';
 
 mongoose.connect(URI, {
         useNewUrlParser: true,
